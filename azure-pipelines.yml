@@ -8,7 +8,7 @@ trigger:
 
 # PowerShell
 # Run a PowerShell script on Linux, macOS, or Windows
-- task: PowerShell@2
+-task: PowerShell@2
   inputs:
     targetType: 'inline' 
     #filePath: # Required when targetType == FilePath
