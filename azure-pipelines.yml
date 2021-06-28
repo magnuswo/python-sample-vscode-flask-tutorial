@@ -8,5 +8,5 @@ steps:
 
   - task: PublishPipelineArtifact@1
     inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifactName: 'WebApp'
+      targetPath: '$(Pipeline.Workspace)'
+      artifactName: 'WebApp'
