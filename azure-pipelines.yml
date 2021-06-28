@@ -6,4 +6,3 @@ steps:
     inputs:
       targetType: 'inline'
       script: 'Write-Host "This is me running PowerShell code!'
-	- powershell: 'Write-Host "This is me running PowerShell code!"'
