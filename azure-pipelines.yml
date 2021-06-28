@@ -1,4 +1,4 @@
-
+steps:
 # PowerShell
 # Run a PowerShell script on Linux, macOS, or Windows
 - task: PowerShell@2
