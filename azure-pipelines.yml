@@ -6,7 +6,7 @@ steps:
       script: 'Write-Host "This is me running PowerShell code!"'
       pwsh: true
 
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: $(System.FellesTest)/bin/WebApp
-    artifactName: WebApp
+  - task: PublishPipelineArtifact@1
+    inputs:
+     targetPath: $(System.FellesTest)/bin/WebApp
+      artifactName: WebApp
